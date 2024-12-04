@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #E6E6FA; /* Lavender */
+    color: #1E2A39; /* Dark Blue */
 }
 
 header {
-    background-color: #1E2A39; /* Dark Blue */
+    background-color: #ADD8E6; /* Light Blue */
     color: white;
     text-align: center;
     padding: 2em 0;
@@ -20,6 +20,7 @@ section {
     border-radius: 10px;
     max-width: 800px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #1E2A39; /* Dark Blue */
 }
 
 h1, h2 {
@@ -38,18 +39,4 @@ h2 {
 
 p {
     line-height: 1.6;
-}
-
-body {
-    background-color: #E6E6FA; /* Lavender */
-    color: #1E2A39; /* Dark Blue */
-}
-
-header {
-    background-color: #ADD8E6; /* Light Blue */
-}
-
-section {
-    background-color: white;
-    color: #1E2A39; /* Dark Blue */
 }
