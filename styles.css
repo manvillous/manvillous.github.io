@@ -15,7 +15,7 @@ header {
 }
 
 header::before {
-    content: url('cat.png'); /* Add your cat image */
+    content: url('cat.png');
     position: absolute;
     top: 10px;
     left: 10px;
@@ -24,7 +24,7 @@ header::before {
 }
 
 header::after {
-    content: url('code.png'); /* Add your coding image */
+    content: url('code.png'); 
     position: absolute;
     top: 10px;
     right: 10px;
@@ -44,7 +44,7 @@ section {
 }
 
 section#about::before {
-    content: url('red-spider-lily.png'); /* Add your red spider lily image */
+    content: url('red-spider-lily.png');
     position: absolute;
     top: -10px;
     left: -10px;
