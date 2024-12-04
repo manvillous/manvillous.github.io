@@ -3,17 +3,53 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    color: #333;
 }
+
 header {
-    background-color: #333;
+    background-color: #1E2A39; /* Dark Blue */
     color: white;
     text-align: center;
-    padding: 1em 0;
+    padding: 2em 0;
 }
+
 section {
-    margin: 2em;
-    padding: 1em;
+    margin: 2em auto;
+    padding: 2em;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
+    max-width: 800px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #1E2A39; /* Dark Blue */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 1.5em;
+}
+
+p {
+    line-height: 1.6;
+}
+
+body {
+    background-color: #E6E6FA; /* Lavender */
+    color: #1E2A39; /* Dark Blue */
+}
+
+header {
+    background-color: #ADD8E6; /* Light Blue */
+}
+
+section {
+    background-color: white;
+    color: #1E2A39; /* Dark Blue */
 }
